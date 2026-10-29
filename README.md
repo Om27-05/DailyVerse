@@ -51,7 +51,7 @@ npm install
 npm run dev
 ```
 
-The app will open at `http://localhost:3000`.
+The app will open at 'https://dailyverse-swart.vercel.app/'
 
 ### Firebase Setup (Optional)
 
@@ -147,56 +147,7 @@ Demo/
 
 ---
 
-## 👥 Team Collaboration Guide
 
-### Team Member 1: UI/UX Designer
-**Files:** `src/index.css`, `tailwind.config.js`, all component JSX styling
-- Design the visual system (colors, typography, spacing)
-- Create responsive layouts
-- Implement dark mode theme
-- Add animations and micro-interactions
-- Ensure accessibility
-
-### Team Member 2: Frontend Developer
-**Files:** `src/components/`, `src/pages/`, `src/store/`
-- Build React components and pages
-- Implement Redux state management
-- Add search, filters, and sorting logic
-- Set up React Router navigation
-- Handle form validation
-
-### Team Member 3: Backend Developer
-**Files:** `src/firebase/`, `src/hooks/`
-- Set up Firebase project and config
-- Implement authentication flow
-- Design Firestore data schema
-- Create CRUD services
-- Integrate Stripe payments
-
-### Team Member 4: Testing & Deployment
-**Files:** `package.json`, CI/CD config
-- Write unit and integration tests
-- Set up CI/CD pipeline
-- Performance optimization
-- Deploy to Firebase Hosting / Vercel
-- Accessibility and SEO audits
-
-### Git Workflow
-```bash
-# Create feature branches
-git checkout -b feature/auth      # Member 3
-git checkout -b feature/ui        # Member 1
-git checkout -b feature/products  # Member 2
-git checkout -b feature/testing   # Member 4
-
-# Merge to main with PR reviews
-```
-
----
-
-## 🧪 Available Scripts
-
-```bash
 npm run dev      # Start dev server
 npm run build    # Production build
 npm run preview  # Preview production build
@@ -213,7 +164,3 @@ npm run preview  # Preview production build
 - All product images are from **Unsplash** (free to use)
 
 ---
-
-## 📄 License
-
-MIT License — Feel free to use for educational and commercial purposes.
