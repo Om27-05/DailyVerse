@@ -34,35 +34,12 @@ A premium, fully responsive eCommerce website built with **React**, **Vite**, **
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- **Node.js** v18+ (Download from [nodejs.org](https://nodejs.org/))
-- **npm** (comes with Node.js)
-
-### Installation
-
-```bash
-# 1. Navigate to project directory
-cd Demo
-
-# 2. Install dependencies
-npm install
-
-# 3. Start development server
-npm run dev
 ```
 
 The app will open at 'https://dailyverse-swart.vercel.app/'
 
 
-```javascript
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "your-project.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
-};
+```
 ```
 
 > 💡 **Demo Mode:** The app works without Firebase configuration! It uses seed data for products and allows demo login with any credentials.
@@ -139,10 +116,6 @@ Demo/
 ---
 
 
-npm run dev      # Start dev server
-npm run build    # Production build
-npm run preview  # Preview production build
-```
 
 ---
 
