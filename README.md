@@ -34,17 +34,12 @@ A premium, fully responsive eCommerce website built with **React**, **Vite**, **
 
 ## 🚀 Getting Started
 
-```
 
 The app will open at 'https://dailyverse-swart.vercel.app/'
 
 
-```
-```
-
 > 💡 **Demo Mode:** The app works without Firebase configuration! It uses seed data for products and allows demo login with any credentials.
 
----
 
 ## 📁 Project Structure
 
