@@ -53,15 +53,6 @@ npm run dev
 
 The app will open at 'https://dailyverse-swart.vercel.app/'
 
-### Firebase Setup (Optional)
-
-To enable real authentication and database:
-
-1. Go to [Firebase Console](https://console.firebase.google.com/)
-2. Create a new project
-3. Enable **Authentication** → Email/Password
-4. Enable **Cloud Firestore**
-5. Copy your config and paste in `src/firebase/config.js`
 
 ```javascript
 const firebaseConfig = {
